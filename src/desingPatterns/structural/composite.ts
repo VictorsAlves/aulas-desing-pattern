@@ -8,7 +8,7 @@ class FileItem implements FileSystemItem {
     constructor(private name: string, private size: number) {
     }
 
-    getName(): string {
+  getName(): string {
         return this.name;
     }
 
